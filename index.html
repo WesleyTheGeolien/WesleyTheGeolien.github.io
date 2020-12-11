@@ -1,11 +1,20 @@
+---
+---
 <!DOCTYPE html>
-<html>
+<html dir="ltr" lang="en">
+{% include head.html %}
 <body>
+{% include header.html %}
 
-<h1>My First Heading</h1>
+<div id="fullpage">
+  {% for tab in site.tabs %}
+    {% capture id %}{{ tab.id | remove:'/' | remove:'tabs' | downcase }}{% endcapture %}
+    <div class="section tab-base {{tab.class}}">
+      {{ tab.content }}
+    </div>
+  {% endfor %}
+</div>
 
-<p>My first paragraph.</p>
-
+{% include js_files.html %}
 </body>
 </html>
-
