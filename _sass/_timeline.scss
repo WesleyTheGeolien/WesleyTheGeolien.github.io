@@ -7,7 +7,7 @@ body {
 #timeline {
   display: flex;
   background-color: #031625;
-  margin-top: -50px;
+  margin-top: -100px;
 
   &:hover {
     .tl-item {
@@ -23,6 +23,8 @@ body {
   height: 100vh;
   min-height: 600px;
   color: #fff;
+  background-color: #031625;
+  text-align: center;
   overflow: hidden;
   transition: width 0.5s ease;
 
@@ -57,7 +59,8 @@ body {
   }
 
   &:hover {
-    width: 100% !important;
+    width: 200% !important;
+    // overflow: auto;
 
     &:after {
       opacity: 0;
@@ -87,8 +90,7 @@ body {
   z-index: 1;
   text-align: center;
   margin: 0 1.618em;
-  margin-top: 1.5em;;
-  top: 15%;
+  top: 25%;
   opacity: 0;
 
   h1 {
@@ -103,7 +105,7 @@ body {
 
 .tl-year {
   position: absolute;
-  top: 10%;
+  top: 15%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   z-index: 1;

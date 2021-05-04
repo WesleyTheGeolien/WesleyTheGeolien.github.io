@@ -21,7 +21,7 @@ h3 {
 
 .second-page {
   background: #ECE9E6;
-  background: -webkit-linear-gradient(to bottom, #D5D5D6, hsl(240, 3%, 59%));
+  background: -webkit-linear-gradient(to bottom, #D5D5D6, #94949b);
   background: linear-gradient(to bottom, #D5D5D6, #94949b);;
 }
 
@@ -35,9 +35,9 @@ h3 {
   color: #fff;
 }
 
-.fourth-page .tab-base {
-  padding-top: 150px !important;
-}
+// .fourth-page .tab-base {
+//   padding-top: 150px !important;
+// }
 
 .violet-gradient {
   background: #4776E6;
@@ -45,12 +45,17 @@ h3 {
   background: linear-gradient(to left, #8E54E9, #4776E6);
 }
 
-.chartreuse {
-  background-image: url("/img/demo-bg.jpeg");
+.first-page {
+  // background-image: url("/img/demo-bg.jpeg");
   background-size: cover;
-  background-color: rgba(255, 255, 255, 0.8);
+  background: -webkit-linear-gradient(to bottom, #ffffff, #D5D5D6);
+  background: linear-gradient(to bottom, #ffffff, #D5D5D6);
   background-blend-mode: overlay;
 }
+
+// .first-page .tab-base {
+//   padding-top: 50px !important;
+// }
 
 .rows { 
   display:flex;
@@ -71,7 +76,7 @@ h3 {
 
 .project{
   flex: 0 0 33.33333333%;
-  max-width: 30%;
+  max-width: 32%;
   display: grid;
   align-content: space-between;
   margin: 5px;
@@ -137,23 +142,23 @@ h3 {
   display:block;
 }
 
-.card:hover
-{
-    // box-shadow: 0px 0px 50px #000000;
-    z-index: 2;
-    position: absolute !important;
-    top:50%;
-    left:50%;
+// .card:hover
+// {
+//     // box-shadow: 0px 0px 50px #000000;
+//     z-index: 2;
+//     position: absolute !important;
+//     top:50%;
+//     left:50%;
 
-    -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(2) translate(-25%,-25%);
-    -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(2) translate(-25%,-25%);   
-    -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(2) translate(-25%,-25%);
-    transition: all 200ms ease-in;
-    transform: scale(2) translate(-25%,-25%);
-}
+//     -webkit-transition: all 200ms ease-in;
+//     -webkit-transform: scale(2) translate(-25%,-25%);
+//     -ms-transition: all 200ms ease-in;
+//     -ms-transform: scale(2) translate(-25%,-25%);   
+//     -moz-transition: all 200ms ease-in;
+//     -moz-transform: scale(2) translate(-25%,-25%);
+//     transition: all 200ms ease-in;
+//     transform: scale(2) translate(-25%,-25%);
+// }
 
 #hover-content iframe {
   width: 90%;
@@ -165,19 +170,25 @@ h3 {
   text-align: left;
 }
 
-.skill:hover {
+.noHover {
+  pointer-events: none;
+}
+
+.card:hover {
+  z-index: 2;
   max-width: 60vw;
   width: 50vw;
   padding: 1em;
   -webkit-transition: all 200ms ease-in;
-  -webkit-transform: scale(1.5) translate(-35%,-25%);
+  -webkit-transform: scale(1.5);
   -ms-transition: all 200ms ease-in;
-  -ms-transform: scale(1.5) translate(-35%,-25%);   
+  -ms-transform: scale(1.5);   
   -moz-transition: all 200ms ease-in;
-  -moz-transform: scale(1.5) translate(-35%,-25%);
+  -moz-transform: scale(1.5);
   transition: all 200ms ease-in;
-  transform: scale(1.5) translate(-35%,-25%);
+  transform: scale(1.5);
 }
+
 
 .pulse {
 	display: inline-block;
