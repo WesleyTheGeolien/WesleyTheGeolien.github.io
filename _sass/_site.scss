@@ -1,3 +1,11 @@
+h3 {
+  font-size: min(max(1.75rem, 3vw), 20px);
+}
+
+.display-4 {
+  font-size: min(3.75rem, 5vw);
+}
+
 .metalic-gradient {
   background: #abbaab;
   background: -webkit-linear-gradient(to bottom, #ffffff, #abbaab);
@@ -8,12 +16,13 @@
   background: #ECE9E6;
   background: -webkit-linear-gradient(to left, #FFFFFF, #ECE9E6);
   background: linear-gradient(to left, #FFFFFF, #ECE9E6);
+  padding-top: 100px im !important;
 }
 
 .second-page {
   background: #ECE9E6;
-  background: -webkit-linear-gradient(to bottom, #D5D5D6, #94949b);
-  background: linear-gradient(to bottom, #D5D5D6, #94949b);
+  background: -webkit-linear-gradient(to bottom, #D5D5D6, hsl(240, 3%, 59%));
+  background: linear-gradient(to bottom, #D5D5D6, #94949b);;
 }
 
 .third-page {
@@ -24,6 +33,10 @@
 
 .third-page h1 {
   color: #fff;
+}
+
+.fourth-page .tab-base {
+  padding-top: 150px !important;
 }
 
 .violet-gradient {
@@ -75,14 +88,14 @@
   display:block;
   width:100%;
   color:#2962ff;
-  font-size:5rem;
+  font-size:min(max(120px, 10vw), 50px);
   text-align:center
 }
 
 .featurette-img {
   display: block;
   max-width: 100%;
-  height: 5rem;
+  height: min(max(120px, 10vw), 50px);
   margin: auto;
 }
 
@@ -95,7 +108,7 @@
 }
 
 .tab-base {
-  padding-top: 150px;
+  padding-top: 100px;
 }
 
 .card {

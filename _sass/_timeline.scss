@@ -7,7 +7,7 @@ body {
 #timeline {
   display: flex;
   background-color: #031625;
-  margin-top: -100px;
+  margin-top: -50px;
 
   &:hover {
     .tl-item {
@@ -87,7 +87,7 @@ body {
   z-index: 1;
   text-align: center;
   margin: 0 1.618em;
-  margin-top: 0.5em;;
+  margin-top: 1.5em;;
   top: 15%;
   opacity: 0;
 
@@ -114,6 +114,7 @@ body {
     font-family: "Pathway Gothic One", Helvetica Neue, Helvetica, Arial,
       sans-serif;
     font-size: 1.728rem;
+    margin-top: 5vh;
     // line-height: 0;
   }
 }
