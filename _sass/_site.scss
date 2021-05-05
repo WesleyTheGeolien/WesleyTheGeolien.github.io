@@ -57,11 +57,19 @@ h3 {
 //   padding-top: 50px !important;
 // }
 
+.v-centered{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+}
+
 .rows { 
   display:flex;
   flex-wrap:wrap;
-  margin-right:-15px;
-  margin-left:-15px;
+  justify-content: center;
+  // margin-right:-15px;
+  // margin-left:-15px;
   text-align: center;
   padding: 5px;
 }
@@ -76,7 +84,7 @@ h3 {
 
 .project{
   flex: 0 0 33.33333333%;
-  max-width: 32%;
+  max-width: 30%;
   display: grid;
   align-content: space-between;
   margin: 5px;
@@ -87,6 +95,7 @@ h3 {
 .skill-heading {
   padding-bottom: 15px;
   text-align: center;
+  color: white;
 }
 
 .featurette-icon {
