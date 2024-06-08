@@ -57,15 +57,11 @@ function Job({ title, company, setActiveSection, children }) {
 export function CV() {
     const [activeSection, setActiveSection] = React.useState('')
 
-    React.useEffect(() => {
-        console.log(activeSection)
-    }, [activeSection])
-
     return (
         <Section title="Resume" description="">
             <div className="flex flex-col md:flex-row">
                 <div className="sticky top-0 flex-1 md:py-[10vh] h-screen">
-                    <div className="flex flex-col items-center justify-center w-full h-[30vh] md:h-full overflow-hidden md:shadow-[0_0_10px_4px] rounded-md md:rounded-3xl shadow-white">
+                    <div className="flex flex-col items-center justify-center w-full h-[30vh] md:h-full overflow-hidden shadow-lg rounded-md md:rounded-3xl shadow-white">
                         <Map flyTo={activeSection} />
                     </div>
                 </div>
