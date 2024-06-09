@@ -32,7 +32,7 @@ const openSource = [
     },
     {
         "title": "Well Correlation tool Hackathon - Software Underground Transfrom",
-        "description": "Build a web tool (Dash / plotly) to load LAS files and visualise them."
+        "description": "Build a web tool (Dash / plotly) to load LAS files and visualize them."
     }
 ]
 

@@ -28,13 +28,13 @@ const jobs = [
                     Utilizing cloud functions, a large language model equipped with Retrieval Augmented Generation (RAG) capabilities was integrated to facilitate coding and documentation searches for users. This implementation leveraged RAG to ensure that the language model's responses were grounded in real-time or proprietary data, thereby providing accurate and relevant assistance. This approach exemplified the potential of merging advanced AI techniques with cloud computing to enhance practical applications, particularly in areas like coding support and documentation navigation.
                 </p>
                 <p>
-                    Other projects included integrating third-party technologies to enhance product offerings. One notable achievement was the integration RMS's Drillhole Optimizer C library into rmsp or prototyping the integration between rmsp and GeologicAI's Coretable.
+                    Other projects included integrating third-party technologies to enhance product offerings. One notable achievement was the integration RMS's DrillHole Optimizer C library into rmsp or prototyping the integration between rmsp and GeologicAI's Coretable.
                 </p>
             </>
         ),
     },
     {
-        "title": "Team Lead Tech - Volonteer (remote)",
+        "title": "Team Lead Tech - Volunteer (remote)",
         "company": "Climatematch",
         "website": "https://sites.google.com/climatematch.io/academy/about",
         "dates": "2023",
@@ -105,7 +105,7 @@ const jobs = [
                     During my stint at Envisol, I was entrusted with the responsibility of constructing a prototype geostatistical Software as a Service (SaaS) solution. This project aimed to accurately characterize and regularly update contamination estimates. Leveraging advanced geostatistical techniques, the solution was designed to provide detailed insights into contamination levels, supporting informed decision-making and remediation strategies.
                 </p>
                 <p>
-                    Further work included automating data acquistion workflows and building bespoke tools for the QGIS platform.
+                    Further work included automating data acquisition workflows and building bespoke tools for the QGIS platform.
                 </p>
             </>
         )
@@ -142,7 +142,7 @@ const jobs = [
         "description": (
             <>
                 <p>
-                    Ecole Nationale Superieure de Geologie is a leading French engineering school specialising in geo- sciences and delivering an Engineering diploma combined with a Master from the University of Lorraine.
+                    Ecole Nationale Superieure de Geologie is a leading French engineering school specializing in geo- sciences and delivering an Engineering diploma combined with a Master from the University of Lorraine.
                 </p>
                 <p>
                     Title of Thesis: ”Current automatic well log correlation techniques, their advantages and drawbacks”.

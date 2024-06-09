@@ -38,7 +38,7 @@ const presentations = [
         "description": (
             <>
             <p>
-            Short talk on building a infrastructure to rapidily build and deploy prototypes.
+            Short talk on building a infrastructure to rapidly build and deploy prototypes.
             </p>
             <iframe src="https://www.youtube.com/embed/rUbvueIF5f8?si=McmE5bzUYj8ljLmG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </>
@@ -60,7 +60,7 @@ const presentations = [
         "title": "How certain are you of your surfaces - Seequent",
         "description": (
             <p>
-                Presentation in front of over 200 mining experts on behalf of Seequent demonstarting the latest R&D work carried out at the company.
+                Presentation in front of over 200 mining experts on behalf of Seequent demonstrating the latest R&D work carried out at the company.
                 <iframe src="https://www.youtube.com/embed/jt26J5ljlA0?si=uwARxm3v_DBqXdPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </p>
         )
@@ -69,7 +69,7 @@ const presentations = [
         "title": "Current automatic well log correlation techniques - RING",
         "description": (
             <p>
-                Presentation in front off over 100 Oil and Gas experts demonstarting my Master’s thesis on automated well log correlation techniques. The Master’s thesis was also published in the Proceedings.
+                Presentation in front off over 100 Oil and Gas experts demonstrating my Master’s thesis on automated well log correlation techniques. The Master’s thesis was also published in the Proceedings.
             </p>
         )
     }
