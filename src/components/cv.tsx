@@ -200,12 +200,12 @@ export function CV() {
             <div className="flex flex-col md:flex-row">
                 {/* Left Column - Sticky Map */}
                 <div className="sticky top-0 flex-1 md:py-[10vh] h-screen">
-                    <div className="flex flex-col items-center justify-center w-full h-[30vh] md:h-full overflow-hidden shadow-lg rounded-md md:rounded-3xl shadow-white">
+                    <div className="flex flex-col items-center justify-center w-full h-[30vh] md:h-full overflow-hidden md:rounded-3xl rounded-b-xl">
                         <Map flyTo={flyTo} />
                     </div>
                 </div>
                 {/* Right Column - Scrollable */}
-                <div className="flex-1 md:pl-24 snap-y snap-mandatory snap-always">
+                <div className="flex-1 pt-10 md:pl-24 snap-y snap-mandatory snap-always md:pt-0">
                     {jobs.map((job) => (
                         <>
                             <Job key={job.company} job={job} setFlyTo={setFlyTo}>
