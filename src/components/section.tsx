@@ -5,7 +5,7 @@ export const SectionHeader = ({ title, description }) => (
     <>
         <HRule />
         <div className="max-w-2xl mx-auto lg:mx-0">
-            <h2 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl">
+            <h2 className="text-4xl font-bold tracking-tight text-transparent bg-gradient-to-r from-cyan-500 to-fuchsia-400 bg-clip-text w-fit">
                 {title}
             </h2>
             <p className="mt-4 text-zinc-400">

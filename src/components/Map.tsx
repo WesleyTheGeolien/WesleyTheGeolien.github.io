@@ -6,21 +6,10 @@ import 'mapbox-gl/dist/mapbox-gl.css'
 import { siteMetadata } from '../../gatsby-config'
 
 export const Map = ({
-  width,
-  height,
   zoom,
   center,
-  bounds,
-  padding,
-  styles,
-  sources,
-  layers,
   minZoom,
   maxZoom,
-  directions,
-  scale,
-  styleSwitcher,
-  layerSwitcher,
   flyTo
 }) => {
   const { mapboxToken } = siteMetadata

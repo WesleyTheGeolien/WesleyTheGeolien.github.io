@@ -38,7 +38,7 @@ export const Card = ({ title, description }) => {
             className="relative overflow-hidden duration-700 border shadow-md rounded-xl hover:bg-zinc-500/10 group md:gap-8 hover:border-zinc-400/50 border-zinc-600 shadow-zinc-600 hover:shadow-white"
         >
         <article className="p-4 md:p-8">
-            <h2 className="z-20 text-xl font-medium duration-1000 lg:text-3xl text-zinc-200 group-hover:text-white font-display">
+            <h2 className="z-20 text-xl font-medium duration-1000 lg:text-3xl text-zinc-200 group-hover:text-zinc-100 font-display">
                 {title}
             </h2>
             <p className="z-20 mt-4 text-sm duration-1000 text-zinc-400 group-hover:text-zinc-200">
