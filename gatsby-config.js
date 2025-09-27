@@ -9,12 +9,13 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Wesley Banfield Portfolio`,
+    description: `Wesley Banfield's Portfolio Website`,
+    author: `@WesleyTheGeolien`,
+    siteUrl: `https://WesleyTheGeolien.github.io/`,
     // mapboxToken: process.env.GATSBY_MAPBOX_API_TOKEN,
-    mapboxToken : 'pk.eyJ1Ijoid2VzbGV5YmFuZmllbGQiLCJhIjoiY2pmMDRwb202MGlzNDJ3bm44cHA3YXZiNCJ9.b2yOf2vbWnWiV7mlsFAywg'
+    mapboxToken:
+      "pk.eyJ1Ijoid2VzbGV5YmFuZmllbGQiLCJhIjoiY2pmMDRwb202MGlzNDJ3bm44cHA3YXZiNCJ9.b2yOf2vbWnWiV7mlsFAywg",
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -38,9 +39,9 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/earth-americas-solid.svg`, // This path is relative to the root of the site.
       },
     },
-    'gatsby-plugin-postcss',
+    "gatsby-plugin-postcss",
   ],
 }

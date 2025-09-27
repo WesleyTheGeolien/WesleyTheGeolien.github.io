@@ -12,6 +12,7 @@ const expertise = [
                     "Docker",
                     "TypeScript",
                     "React",
+                    "Tailwind",
                     "Azure",
                     "C++",
                     "SQL",
@@ -94,7 +95,7 @@ const expertise = [
         "description": (
             <>
                 <p>
-                    Being able visualize data intuitively and interactively is primordial to being able to rapidly iterate on ideas. I keep up to date on the latest advances in the domain.
+                    Being able to visualize data intuitively and interactively is primordial to being able to rapidly iterate on ideas. I keep up to date on the latest advances in the domain.
                 </p>
             </>
         )
@@ -102,7 +103,7 @@ const expertise = [
 ]
 
 export const Expertise = () => (
-    <Section title="Domains of Expertise and interest" description="">
+    <Section title="Domains of Expertise and Interests" description="">
         <CardGrid cardsContent={expertise} />
     </Section>
 )
